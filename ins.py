@@ -4,6 +4,7 @@ def main():
 
 def counting(m_amount):
     print("Insurance for $", m_amount - (m_amount * 0.20), sep="")
+    print("hey")
 
 
 main()
