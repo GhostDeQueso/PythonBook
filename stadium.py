@@ -19,7 +19,6 @@ def main():
 def ticketA(amount_a):
 
     ticket = amount_a * 20
-    
     return ticket
 
 def ticketB(amount_b):

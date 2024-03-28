@@ -14,13 +14,14 @@ def computer_choice():
 
 def determinate_winner(computer, user_choice):
     if user_choice == computer:
-        print("It's a tie")
-    elif (user_choice == 'rock' and computer == 'scissors'):
-        print("Rock smashes scissors")
-    elif (user_choice == 'scissors' and computer == 'paper'):
-        print("Scissors smashes paper")
-    elif (user_choice == 'paper' and computer == 'rock'):
-        print("Paper smashes rock")
+        print("It's a tie1")
+    elif (user_choice == 'rock' and computer == 'scissors') or \
+         (user_choice == 'scissors' and computer == 'paper') or \
+         (user_choice == 'paper' and computer == 'rock'):
+         print(f"User won {user_choice} beats {computer}")
+    else:
+         print(f"Computer won! {computer} beats {user_choice}")
     
+
 
 main()

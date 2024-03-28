@@ -15,8 +15,6 @@ def main():
             print(f"result is {counter}")
             break
 
-        
-
 
 def count(guess, number):
     if guess > number and guess <= 100:
