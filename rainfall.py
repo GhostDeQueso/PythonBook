@@ -20,7 +20,7 @@ def main():
     print(average)
 
     the_lowest, the_highest = low_high(numbers)
-    print("the highest nr is: ", the_lowest)
+    print("the lowest nr is: ", the_lowest)
     print("the highest nr is: ", the_highest)
 
 

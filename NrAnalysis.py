@@ -3,7 +3,7 @@ def main():
     counter = 0
     numbers = []
 
-    while counter < 5:
+    while counter < 20:
         counter += 1
         print(counter, end=". ")
         number = int(input("Enter a number: "))
